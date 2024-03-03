@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #1F2324;
+}
+
+@font-face {
+    src: url("../fonts/Montserrat-Regular.ttf");
+    font-family: Montserrat-400;
+    font-weight: 400;
+}
+
+@font-face {
+    src: url("../fonts/Montserrat-Medium.ttf");
+    font-family: Montserrat-500;
+    font-weight: 500;
+}
+
+@font-face {
+    src: url("../fonts/Montserrat-SemiBold.ttf");
+    font-family: Montserrat-600;
+    font-weight: 600;
+}
+
+@font-face {
+    src: url("../fonts/Montserrat-ExtraBold.ttf");
+    font-family: Montserrat-800;
+    font-weight: 800;
+}
+
+.header {
+    padding: 23px 0 30px 0;
+    border-bottom: 1px solid #E5E5E5;
+    /*margin-bottom: 37px;*/
+}
+
+.container {
+    max-width: 1223px;
+    margin: 0 auto;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    margin-bottom: 37px;
+}
+
+.header-info-image {
+    cursor: pointer;
+}
+
+.header-info-address {
+    font-family: Montserrat-500, sans-serif;
+    font-size: 12px;
+    color: #969696;
+}
+
+.header-info-entrance {
+    display: flex;
+    align-items: center;
+}
+
+.header-info-entrance a {
+    margin-left: 6px;
+    color: #969696;
+    font-family: Montserrat-400, sans-serif;
+    font-size: 14px;
+}
+
+.header-info-social svg {
+    cursor: pointer;
+}
+
+.header-info-social svg:first-child {
+    margin-right: 37px;
+}
+
+.header-info-phone {
+    display: flex;
+    align-items: center;
+}
+
+.header-info-phone span {
+    margin-left: 5px;
+    font-family: Montserrat-500, sans-serif;
+    font-size: 16px;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu-item {
+    list-style: none;
+    font-family: Montserrat-500, sans-serif;
+    font-size: 16px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #1F2324;
+}
+
+.menu-item:first-child {
+    margin-right: 25px;
+}
+
+.menu-item:nth-child(2) {
+    margin-right: 36px;
+}
+
+.menu-item:nth-child(3) {
+    margin-right: 34px;
+}
+
+.menu-item:nth-child(4) {
+    margin-right: 23px;
+}
+
+.menu-item:nth-child(5) {
+    margin-right: 41px;
+}
+
+.menu-item:nth-child(6) {
+    margin-right: 48px;
+}
+
+.menu-item:nth-child(7) {
+    margin-right: 31px;
+}
+
+.header-info-cart svg {
+    cursor: pointer;
+}
+
+.main {
+    padding-top: 37px;
+    padding-bottom: 91px;
+}
+
+.main .container {
+    display: flex;
+}
+
+.main-filter {
+    margin-right: 33px;
+}
+
+.main-filter-path {
+    margin-bottom: 30px;
+    font-family: Montserrat-500, sans-serif;
+    font-size: 12px;
+    color: #969696;
+}
+
+.main-filter-category-name {
+    font-family: Montserrat-600, sans-serif;
+    font-size: 18px;
+    margin-bottom: 33px;
+}
+
+.main-filter-category-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-filter-category-items:first-child {
+    margin-bottom: 63px;
+}
+
+.main-filter-category-item {
+    margin-bottom: 30px;
+    list-style: none;
+    font-family: Montserrat-400, sans-serif;
+    font-size: 14px;
+}
+
+.main-filter-category-item label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.main-filter-category-item input {
+    cursor: pointer;
+}
+
+.main-filter-category-item div {
+    margin-left: 18px;
+}
+
+.main-product {
+    padding-top: 42px;
+}
+
+.main-product-title {
+    font-family: Montserrat-500, sans-serif;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.main-product-info {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.main-product-info-image {
+    background-image: url("../images/main.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 386px;
+    height: 313px;
+    margin-right: 30px;
+}
+
+.main-product-info-description {
+    font-family: Montserrat-500, sans-serif;
+    font-size: 14px;
+    line-height: 33px;
+    color: #969696;
+}
+
+.main-product-info-description-characteristics {
+    margin-bottom: 35px;
+}
+
+.article {
+    margin-bottom: 12px;
+    color: #1F2324;
+}
+
+.article span {
+    font-family: Montserrat-800, sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.main-product-info-description span {
+    color: #1F2324;
+}
+
+.main-product-info-description-price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 33px;
+}
+
+.price-main {
+    font-family: Montserrat-600, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-right: 20px;
+}
+
+.price-discount {
+    font-family: Montserrat-400, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #C4C4C4;
+    margin-right: 41px;
+    position: relative;
+}
+
+.price-discount-percent {
+    position: absolute;
+    background-color: #FFE4E4;
+    width: 42px;
+    height: 18px;
+    text-align: center;
+    font-family: Montserrat-400, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    top: -27px;
+    left: 0;
+}
+
+.main-product-info-description-price-count {
+    display: flex;
+    align-items: center;
+}
+
+.main-product-info-description-price-count svg{
+    cursor: pointer;
+}
+
+.main-product-info-description-price-count span {
+    margin-right: 11px;
+    margin-left: 11px;
+}
+
+.button {
+    width: 116px;
+    height: 38px;
+    border-radius: 24px;
+    border: 1px solid #FFD230;
+    background-color: #FFD230;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    font-family: Montserrat-400, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.button-transparent {
+    width: 156px;
+    height: 38px;
+    border: 1px solid #1648A8;
+    color:  #1648A8;
+    background-color: transparent;
+    margin-left: 30px;
+}
+
+
